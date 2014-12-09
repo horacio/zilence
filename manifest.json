@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "Zilence",
+  "description": "Zilences online newspapers commenter hordes.",
+
+  "version": "1.0",
+
+  "background": {
+    "scripts": ["script.js"],
+    "persistent": false
+  },
+
+  "icons": {
+    "16": "icon.ico"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_title": "Zilence comments"
+  }
+}
